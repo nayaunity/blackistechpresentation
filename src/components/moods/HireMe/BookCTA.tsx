@@ -54,7 +54,7 @@ export function BookCTA() {
               href={hireContent.cta.secondary.href}
               className="mono text-[11px] uppercase tracking-[0.3em] text-[color:var(--muted)] transition-colors hover:text-[color:var(--fg)]"
             >
-              or — {hireContent.cta.secondary.label}
+              or {hireContent.cta.secondary.label}
             </a>
           </div>
         </div>

@@ -67,7 +67,7 @@ export function Story() {
                     className="script mt-4 text-xl"
                     style={{ color: "var(--accent-2)" }}
                   >
-                    — just a leap. that&apos;s all most of them are.
+                    just a leap. that&apos;s all most of them are.
                   </p>
                 )}
               </div>

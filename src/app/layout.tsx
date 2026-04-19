@@ -38,7 +38,7 @@ const caveat = Caveat({
 });
 
 export const metadata: Metadata = {
-  title: "Flickering Hearth — a mood-based portfolio",
+  title: "Flickering Hearth · a mood-based portfolio",
   description:
     "One question. Three worlds. A portfolio that rebuilds itself around why you came.",
 };

@@ -1,7 +1,7 @@
 export const gateContent = {
   prompt: "Why are you here?",
   supportingLine:
-    "I'm Naya. Pick the door that matches why you came — the room rearranges itself.",
+    "I'm Naya. Pick the door that matches why you came. The room rearranges itself.",
   options: [
     {
       mood: "hire" as const,

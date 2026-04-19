@@ -109,7 +109,7 @@ export function Gate() {
                 whileTap={{ scale: 0.985 }}
                 onClick={() => chooseMood(opt.mood)}
                 className="group relative flex flex-col items-start gap-5 overflow-hidden rounded-3xl border border-white/10 bg-white/[0.03] p-8 text-left backdrop-blur-sm transition-colors hover:border-white/30"
-                aria-label={`Enter ${opt.label} mode — ${opt.description}`}
+                aria-label={`Enter ${opt.label} mode. ${opt.description}`}
               >
                 <span
                   className="pointer-events-none absolute -right-16 -top-16 h-48 w-48 rounded-full opacity-60 blur-3xl transition-all duration-700 group-hover:scale-125 group-hover:opacity-90"

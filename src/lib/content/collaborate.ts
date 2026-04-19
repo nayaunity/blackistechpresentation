@@ -1,16 +1,16 @@
 // Collaborate mood content for Nyaradzo "Naya" Bere.
-// Copy rewritten against the copywriting skill: proof-forward headline, CTA-style
-// invites, benefit-per-line project taglines, no marketing buzzwords.
+// Copy written against the copywriting skill: proof-forward headline,
+// CTA-style invites, benefit-per-line project taglines, no marketing buzzwords.
 
 export const collabContent = {
   eyebrow: "// accomplices wanted",
   headline: "your AI project, in front of 250,000 builders.",
   subheadline:
-    "I co-build AI features, custom GPTs, and RAG pipelines with brands, creators, and conference crews — then bring them to a developer community that watches, learns, and ships. Got a half-formed idea? Bring it.",
+    "I co-build AI features, custom GPTs, and RAG pipelines with brands, creators, and conference crews, then bring them to a developer community that watches, learns, and ships. Got a half-formed idea? Bring it.",
   invites: [
     "Pair on an AI prototype this weekend.",
     "Co-host a workshop for your community.",
-    "Send me your RAG puzzle — embeddings, Supabase, the works.",
+    "Send me your RAG puzzle. Embeddings, Supabase, the works.",
     "Sponsor a tutorial in the Tech Winter Arc series.",
   ],
   ideas: [
@@ -51,21 +51,21 @@ export const collabContent = {
     {
       title: "PortfolioGPT",
       tagline:
-        "Type your GitHub username. Get a polished portfolio site back — React, Next.js, OpenAI.",
+        "Type your GitHub username. Get a polished portfolio site back. Built with React, Next.js, OpenAI.",
       tags: ["react", "next.js", "openai"],
       link: "https://github.com/nayaunity/PortfolioGPT",
     },
     {
       title: "ManageAI",
       tagline:
-        "Content pipelines from draft to publish for creator agencies — Python, Firebase, Supabase.",
+        "Content pipelines from draft to publish for creator agencies. Built with Python, Firebase, Supabase.",
       tags: ["python", "firebase", "supabase"],
       link: "https://github.com/nayaunity/ManageAI",
     },
     {
       title: "Confer",
       tagline:
-        "Mobile app that helps AfroTech attendees find the right room — Swift, Firebase, Azure AI.",
+        "Mobile app that helps AfroTech attendees find the right room. Built with Swift, Firebase, Azure AI.",
       tags: ["swift", "firebase", "azure ai"],
       link: "https://github.com/nayaunity/Confer",
     },
@@ -86,7 +86,7 @@ export const collabContent = {
     {
       title: "Claude Code · Opus demo series",
       tagline:
-        "Live-coded Claude Code walkthroughs — MCP, agent workflows, real developer audiences.",
+        "Live-coded Claude Code walkthroughs. MCP, agent workflows, real developer audiences.",
       tags: ["mcp", "anthropic", "devtools"],
       link: "https://www.tiktok.com/@theblackfemaleengineer",
     },
@@ -100,7 +100,7 @@ export const collabContent = {
     heading: "three things I want to build next",
     items: [
       "MCP integrations that make AI agents feel native inside developer tooling.",
-      "RAG over community knowledge — Discords, Slacks, archives — so nobody re-asks the same question.",
+      "RAG over community knowledge (Discords, Slacks, archives) so nobody re-asks the same question.",
       "AI tools for creators: drafting, pitching, and managing sponsorships without losing voice.",
     ],
   },

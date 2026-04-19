@@ -1,6 +1,6 @@
-// Personalized for Nyaradzo "Naya" Bere — targeting Anthropic Developer
-// Relations. Copy rewritten against the copywriting skill: clarity > cleverness,
-// specific numbers, benefit-forward CTAs, no marketing buzzwords.
+// Personalized for Nyaradzo "Naya" Bere, for an Anthropic Developer
+// Relations role. Copy written against the copywriting skill: clarity over
+// cleverness, specific numbers, benefit-forward CTAs, no marketing buzzwords.
 
 export const hireContent = {
   eyebrow: "Hire · 2026",
@@ -22,11 +22,11 @@ export const hireContent = {
       year: "2025",
       client: "Anthropic",
       title:
-        "Took Claude Code Opus 4.5 to 250,000 developers — in tutorials they finished.",
+        "Took Claude Code Opus 4.5 to 250,000 developers. Tutorials they finished.",
       role: "Technical content partner, @TheBlackFemaleEngineer",
       outcomes: [
         "Shipped hands-on Claude Code walkthroughs across Instagram, TikTok, YouTube, and LinkedIn",
-        "Framed Opus 4.5 as a workflow — prompt, iterate, ship — not a feature list",
+        "Framed Opus 4.5 as a workflow (prompt, iterate, ship), not a feature list",
         "Reached the developers who do not read launch blogs",
       ],
       stack: ["Claude API", "Claude Code", "Prompt engineering", "Technical writing"],
@@ -40,7 +40,7 @@ export const hireContent = {
       outcomes: [
         "Built embeddings and vector search over sessions, speakers, and tracks",
         "Shipped the Swift iOS app and used it live at AfroTech",
-        "Doubles as my working case study for LLM + retrieval in front of developer audiences",
+        "Doubles as my working case study for LLM and retrieval, shown to developer audiences",
       ],
       stack: ["Swift", "Firebase", "Azure AI", "Vector search", "RAG"],
     },
@@ -60,15 +60,15 @@ export const hireContent = {
   ],
   experience: [
     {
-      years: "2021 — Now",
+      years: "2021 to Now",
       role: "Technical Content Creator & Developer Advocate, @TheBlackFemaleEngineer",
     },
     {
-      years: "2021 — 2022",
+      years: "2021 to 2022",
       role: "Developer Advocate, DreamWorks Animation (Comcast NBCUniversal)",
     },
     {
-      years: "2021 — 2023",
+      years: "2021 to 2023",
       role: "Software Engineer, Comcast",
     },
   ],
