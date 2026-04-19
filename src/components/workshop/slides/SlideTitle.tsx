@@ -36,7 +36,7 @@ export function SlideTitle() {
         </span>
       </div>
 
-      <div style={{ display: "flex", flexDirection: "column", gap: 40, maxWidth: "18ch" }}>
+      <div style={{ display: "flex", flexDirection: "column", gap: 40, maxWidth: 1400 }}>
         <h1
           style={{
             fontFamily: "var(--workshop-font-display)",
@@ -46,6 +46,7 @@ export function SlideTitle() {
             letterSpacing: "-0.02em",
             margin: 0,
             color: "#1A1A1A",
+            maxWidth: "14ch",
           }}
         >
           The New{" "}

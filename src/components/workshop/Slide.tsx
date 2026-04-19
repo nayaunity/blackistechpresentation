@@ -14,7 +14,7 @@ export function Slide({
   pad?: "lg" | "xl";
   bg?: string;
 }) {
-  const padding = pad === "xl" ? "80px 104px" : "60px 80px";
+  const padding = pad === "xl" ? "72px 104px 112px" : "56px 80px 96px";
   const justify =
     align === "center" ? "center" : align === "end" ? "flex-end" : "flex-start";
 

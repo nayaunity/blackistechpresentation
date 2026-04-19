@@ -18,13 +18,13 @@ export function SlideIntroForm() {
         style={{
           display: "grid",
           gridTemplateColumns: "auto 1fr",
-          gap: 72,
+          gap: 64,
           alignItems: "center",
-          marginTop: 16,
+          marginTop: 8,
         }}
       >
         <div style={{ display: "flex", flexDirection: "column", gap: 14 }}>
-          <QRBlock url={slide02IntroForm.qrUrl} size={380} dark="#1A1A1A" light="#FFFFFF" />
+          <QRBlock url={slide02IntroForm.qrUrl} size={340} dark="#1A1A1A" light="#FFFFFF" />
           <span
             style={{
               fontFamily: "var(--font-mono)",
