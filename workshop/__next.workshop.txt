@@ -1,0 +1,4 @@
+1:"$Sreact.fragment"
+2:I[39756,["/blackistechpresentation/_next/static/chunks/ff1a16fafef87110.js","/blackistechpresentation/_next/static/chunks/7340adf74ff47ec0.js"],"default"]
+3:I[37457,["/blackistechpresentation/_next/static/chunks/ff1a16fafef87110.js","/blackistechpresentation/_next/static/chunks/7340adf74ff47ec0.js"],"default"]
+0:{"buildId":"FvqjYvQ6ehbApDHlsJgFT","rsc":["$","$1","c",{"children":[null,["$","div",null,{"className":"workshop-root","style":{"background":"var(--workshop-bg)","color":"var(--workshop-fg)","minHeight":"100svh"},"children":["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]}]]}],"loading":null,"isPartial":false}
