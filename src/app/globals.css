@@ -15,6 +15,26 @@
   --font-body: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
   --font-mono: var(--font-geist-mono), ui-monospace, "JetBrains Mono", monospace;
   --font-script: var(--font-caveat), "Instrument Serif", cursive;
+
+  --workshop-bg: #FFF8D6;
+  --workshop-fg: #1A1A1A;
+  --workshop-muted: #4B5563;
+  --workshop-surface: #FFFFFF;
+  --workshop-border: rgba(26, 26, 26, 0.1);
+
+  --workshop-accent: #EF562A;
+  --workshop-accent-2: #FFE500;
+  --workshop-accent-3: #B8DE45;
+  --workshop-accent-4: #C4B5E8;
+  --workshop-accent-5: #1F5D2E;
+
+  --workshop-code-bg: #1A1A1A;
+  --workshop-code-fg: #F5F2ED;
+  --workshop-code-prompt: #EF562A;
+  --workshop-code-muted: #8B8682;
+
+  --workshop-font-display: var(--font-playfair), Georgia, "Times New Roman", serif;
+  --workshop-font-body: var(--font-dm-sans), var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
 }
 
 html[data-mood="hire"] {

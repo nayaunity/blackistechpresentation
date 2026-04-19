@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Fraunces, Space_Grotesk, Instrument_Serif, Caveat } from "next/font/google";
+import { Geist, Geist_Mono, Fraunces, Space_Grotesk, Instrument_Serif, Caveat, Playfair_Display, DM_Sans } from "next/font/google";
 import "./globals.css";
 import { MoodProvider } from "@/lib/mood-context";
 
@@ -37,6 +37,19 @@ const caveat = Caveat({
   subsets: ["latin"],
 });
 
+const playfair = Playfair_Display({
+  variable: "--font-playfair",
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700", "800", "900"],
+  style: ["normal", "italic"],
+});
+
+const dmSans = DM_Sans({
+  variable: "--font-dm-sans",
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+});
+
 export const metadata: Metadata = {
   title: "Flickering Hearth · a mood-based portfolio",
   description:
@@ -51,7 +64,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${fraunces.variable} ${spaceGrotesk.variable} ${instrument.variable} ${caveat.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${fraunces.variable} ${spaceGrotesk.variable} ${instrument.variable} ${caveat.variable} ${playfair.variable} ${dmSans.variable} antialiased`}
         style={{
           fontFamily: "var(--font-geist-sans), system-ui, sans-serif",
         }}
