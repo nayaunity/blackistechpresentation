@@ -1,9 +1,9 @@
 1:"$Sreact.fragment"
 2:I[47257,["/blackistechpresentation/_next/static/chunks/ff1a16fafef87110.js","/blackistechpresentation/_next/static/chunks/7340adf74ff47ec0.js"],"ClientPageRoot"]
-3:I[21127,["/blackistechpresentation/_next/static/chunks/87a78d6505d13380.js","/blackistechpresentation/_next/static/chunks/3ba9d703a1a87ff5.js","/blackistechpresentation/_next/static/chunks/9a4e74ee74d0be9d.js","/blackistechpresentation/_next/static/chunks/f042441264e69e45.js"],"default"]
+3:I[21127,["/blackistechpresentation/_next/static/chunks/87a78d6505d13380.js","/blackistechpresentation/_next/static/chunks/3ba9d703a1a87ff5.js","/blackistechpresentation/_next/static/chunks/9a4e74ee74d0be9d.js","/blackistechpresentation/_next/static/chunks/4877c74485952aff.js"],"default"]
 6:I[97367,["/blackistechpresentation/_next/static/chunks/ff1a16fafef87110.js","/blackistechpresentation/_next/static/chunks/7340adf74ff47ec0.js"],"OutletBoundary"]
 7:"$Sreact.suspense"
-0:{"buildId":"FvqjYvQ6ehbApDHlsJgFT","rsc":["$","$1","c",{"children":[["$","$L2",null,{"Component":"$3","serverProvidedParams":{"searchParams":{},"params":{},"promises":["$@4","$@5"]}}],[["$","script","script-0",{"src":"/blackistechpresentation/_next/static/chunks/3ba9d703a1a87ff5.js","async":true}],["$","script","script-1",{"src":"/blackistechpresentation/_next/static/chunks/9a4e74ee74d0be9d.js","async":true}],["$","script","script-2",{"src":"/blackistechpresentation/_next/static/chunks/f042441264e69e45.js","async":true}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],"loading":null,"isPartial":false}
+0:{"buildId":"mvVTcOkYDpXcWwoGWfcjH","rsc":["$","$1","c",{"children":[["$","$L2",null,{"Component":"$3","serverProvidedParams":{"searchParams":{},"params":{},"promises":["$@4","$@5"]}}],[["$","script","script-0",{"src":"/blackistechpresentation/_next/static/chunks/3ba9d703a1a87ff5.js","async":true}],["$","script","script-1",{"src":"/blackistechpresentation/_next/static/chunks/9a4e74ee74d0be9d.js","async":true}],["$","script","script-2",{"src":"/blackistechpresentation/_next/static/chunks/4877c74485952aff.js","async":true}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],"loading":null,"isPartial":false}
 4:{}
 5:"$0:rsc:props:children:0:props:serverProvidedParams:params"
 8:null
