@@ -75,6 +75,46 @@ export function SlideSkills() {
               </li>
             ))}
           </ul>
+
+          <a
+            href={slide15Skills.communityRepo.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              gap: 6,
+              textDecoration: "none",
+              padding: "18px 22px",
+              border: "1px solid var(--workshop-border)",
+              borderRadius: 14,
+              background: "var(--workshop-surface)",
+              color: "var(--workshop-fg)",
+              marginTop: 18,
+            }}
+          >
+            <span
+              style={{
+                fontFamily: "var(--font-mono)",
+                fontSize: 12,
+                letterSpacing: "0.3em",
+                textTransform: "uppercase",
+                color: "var(--workshop-accent)",
+              }}
+            >
+              {slide15Skills.communityRepo.label}
+            </span>
+            <span
+              style={{
+                fontFamily: "var(--font-mono)",
+                fontSize: 18,
+                textDecoration: "underline",
+                textUnderlineOffset: 3,
+              }}
+            >
+              {slide15Skills.communityRepo.display}
+            </span>
+          </a>
         </div>
 
         <div

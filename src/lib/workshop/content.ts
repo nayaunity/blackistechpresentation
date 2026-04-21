@@ -279,8 +279,8 @@ export const slide14MCP = {
 
 export const slide15Skills = {
   eyebrow: "lesson · skills",
-  title: "SKILL.md is tribal knowledge, version-controlled.",
-  body: "A single markdown file dropped into a skills directory. Claude uses it forever. Reusable.",
+  title: "SKILL.md",
+  body: "Tribal knowledge, version-controlled. A single markdown file dropped into a skills directory. Claude uses it forever. Reusable.",
   examples: [
     "Brand guidelines your design team shouldn't have to re-explain",
     "Review checklists every PR should pass",
@@ -289,6 +289,11 @@ export const slide15Skills = {
   ],
   problemSolved: "When an engineer leaves, their knowledge used to leave with them. Skills are how you keep it.",
   options: ["Use Anthropic's built-in skills.", "Or write your own."],
+  communityRepo: {
+    label: "Community library",
+    url: "https://github.com/alirezarezvani/claude-skills",
+    display: "github.com/alirezarezvani/claude-skills",
+  },
 };
 
 export const slide16Reveal = {
