@@ -12,9 +12,8 @@ export function SlideCTA() {
 
       <div
         style={{
-          display: "grid",
-          gridTemplateColumns: "repeat(2, 1fr)",
-          gap: 48,
+          display: "flex",
+          justifyContent: "center",
           marginTop: 20,
         }}
       >

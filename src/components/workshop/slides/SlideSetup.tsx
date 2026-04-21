@@ -1,43 +1,86 @@
 "use client";
 
-import { Slide, SlideEyebrow, SlideTitleText } from "@/components/workshop/Slide";
+import { Slide, SlideEyebrow } from "@/components/workshop/Slide";
 import { TerminalBlock } from "@/components/workshop/TerminalBlock";
 import { slide03Setup } from "@/lib/workshop/content";
 
 export function SlideSetup() {
   return (
-    <Slide>
+    <Slide pad="lg">
       <SlideEyebrow>{slide03Setup.eyebrow}</SlideEyebrow>
-      <SlideTitleText>{slide03Setup.title}</SlideTitleText>
+      <h1
+        style={{
+          fontFamily: "var(--workshop-font-body)",
+          fontSize: "clamp(40px, 4.6vw, 72px)",
+          lineHeight: 1.02,
+          fontWeight: 700,
+          letterSpacing: "-0.02em",
+          margin: "16px 0 22px",
+          maxWidth: "22ch",
+          color: "var(--workshop-fg)",
+        }}
+      >
+        {slide03Setup.title}
+      </h1>
 
       <div
         style={{
           display: "grid",
-          gridTemplateColumns: "1.2fr 1fr",
-          gap: 60,
+          gridTemplateColumns: "1.25fr 1fr",
+          gap: 48,
           alignItems: "start",
-          marginTop: 12,
+          marginTop: 4,
         }}
       >
-        <div style={{ display: "flex", flexDirection: "column", gap: 22 }}>
-          <TerminalBlock command={slide03Setup.installCommand} />
-          <TerminalBlock
-            lines={[{ prompt: "$", text: slide03Setup.updateCommand }]}
-            label="already installed? update."
-          />
+        <div style={{ display: "flex", flexDirection: "column", gap: 14 }}>
+          {slide03Setup.installs.map((i) => (
+            <div
+              key={i.platform}
+              style={{ display: "flex", flexDirection: "column", gap: 6 }}
+            >
+              <div
+                style={{
+                  fontSize: 15,
+                  fontWeight: 700,
+                  color: "var(--workshop-fg)",
+                }}
+              >
+                {i.platform}:
+              </div>
+              <TerminalBlock command={i.command} label="" autoType={false} />
+            </div>
+          ))}
+          <div
+            style={{
+              fontSize: 16,
+              color: "rgba(26,26,26,0.78)",
+              marginTop: 6,
+              lineHeight: 1.5,
+            }}
+          >
+            Already installed?{" "}
+            <code
+              style={{
+                fontFamily: "var(--font-mono)",
+                background: "rgba(26,26,26,0.08)",
+                padding: "2px 8px",
+                borderRadius: 6,
+              }}
+            >
+              {slide03Setup.updateCommand}
+            </code>
+            <span style={{ marginLeft: 10, opacity: 0.7 }}>{slide03Setup.opusNote}</span>
+          </div>
           <div
             style={{
               fontFamily: "var(--font-mono)",
-              fontSize: 16,
+              fontSize: 13,
               color: "var(--workshop-accent)",
-              letterSpacing: "0.15em",
+              letterSpacing: "0.18em",
               textTransform: "uppercase",
             }}
           >
             docs · {slide03Setup.docs}
-          </div>
-          <div style={{ fontSize: 20, color: "rgba(26,26,26,0.8)" }}>
-            {slide03Setup.opusNote}
           </div>
         </div>
 

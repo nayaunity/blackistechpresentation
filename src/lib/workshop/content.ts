@@ -14,8 +14,10 @@ export const workshopMeta = {
 
 // URLs used on QR-code slides. Swap for real form/survey/inquiry links when ready.
 export const workshopLinks = {
-  introForm: "https://forms.gle/your-intro-form-id",
-  endSurvey: "https://forms.gle/your-end-survey-id",
+  introForm:
+    "https://docs.google.com/forms/d/e/1FAIpQLScL_HvB7jRRD9ZnBhE2WiyLsLBXGmZ4Gs81FbKdWYY-R-xaxQ/viewform",
+  endSurvey:
+    "https://docs.google.com/forms/d/e/1FAIpQLSfapRiF8JhxYFtenQPMl4mAZr5yuZBHoJvx20YY7lIB0CQ-Lw/viewform",
   corporateInquiry: "https://forms.gle/your-corporate-inquiry-id",
   claudeCodeDocs: "https://claude.ai/claude-code",
   portfolio: "/",
@@ -46,7 +48,20 @@ export const slide02IntroForm = {
 export const slide03Setup = {
   eyebrow: "60 seconds",
   title: "Let's get you set up.",
-  installCommand: "npm install -g @anthropic-ai/claude-code",
+  installs: [
+    {
+      platform: "macOS, Linux, WSL",
+      command: "curl -fsSL https://claude.ai/install.sh | bash",
+    },
+    {
+      platform: "Windows PowerShell",
+      command: "irm https://claude.ai/install.ps1 | iex",
+    },
+    {
+      platform: "Windows CMD",
+      command: "curl -fsSL https://claude.ai/install.cmd -o install.cmd && install.cmd",
+    },
+  ],
   updateCommand: "claude update",
   docs: workshopLinks.claudeCodeDocs,
   opusNote: "Opus 4.7 features require the latest version.",
@@ -138,14 +153,14 @@ export const slide08BioHook = {
   eyebrow: "while Claude plans",
   title: "Quick about me.",
   bullets: [
-    "Software engineer. Ex-Comcast NBCUniversal, DreamWorks Animation.",
-    "Technical content creator behind @TheBlackFemaleEngineer.",
-    "250,000+ developers across Instagram, TikTok, YouTube, LinkedIn.",
-    "Partnered directly with Anthropic on Claude Code Opus 4.5 content.",
+    "Software engineer who pivoted from a Finance degree in 2020.",
+    "Creator of @TheBlackFemaleEngineer, five years in.",
+    "Mission: make technology accessible and actionable for young professionals.",
+    "Partners include Anthropic, Amazon, Microsoft, Adobe, LinkedIn, and HP.",
   ],
   stat: {
-    value: "92%",
-    label: "of workshop attendees report a measurable confidence lift.",
+    value: "300K+",
+    label: "across TikTok, Instagram, YouTube, and LinkedIn, empowering the next generation of innovators.",
   },
   softCTA: "I run this inside corporate engineering teams. If that's you, we should talk after.",
 };
@@ -161,6 +176,10 @@ export const slide09Permissions = {
   tabHint: "Tab reveals the full command before you decide.",
   opusAutoApprove: "Opus 4.7 has an auto-approve mode. Sandbox projects only. Never your company repo.",
   rule: "personal project = pre-allow obvious stuff. company codebase = read every permission.",
+};
+
+export const slidePause = {
+  title: "Questions?",
 };
 
 export const slide10ContextTokens = {
@@ -179,6 +198,27 @@ export const slide10ContextTokens = {
       when: "Use mid-task when the session grows long.",
     },
   ],
+};
+
+export const slideTokens = {
+  eyebrow: "lesson · tokens",
+  title: "A token is a chunk of text.",
+  core: "About three-quarters of a word. 'engineering' is one token. 'supercalifragilistic' is four. Every prompt you write, every file you paste, every response Claude returns is counted this way.",
+  reasons: [
+    {
+      label: "Cost",
+      body: "You pay per token in, per token out. Long pastes add up fast.",
+    },
+    {
+      label: "Context",
+      body: "Each model has a finite window. You cannot pour in more than it holds.",
+    },
+    {
+      label: "Speed",
+      body: "More tokens to read means a slower first response.",
+    },
+  ],
+  takeaway: "Paste the part that matters. Summarize the rest.",
 };
 
 export const slide11FirstIteration = {
@@ -298,17 +338,12 @@ export const slide18ClaudeMD = {
 
 export const slide19CTA = {
   eyebrow: "before you go",
-  title: "Two scans. One promise.",
+  title: "One last scan",
   codes: [
     {
       label: "End survey",
-      sublabel: "three questions, ninety seconds",
+      sublabel: "then all materials will be sent to you",
       url: workshopLinks.endSurvey,
-    },
-    {
-      label: "Bring me to your team",
-      sublabel: "corporate workshop inquiry",
-      url: workshopLinks.corporateInquiry,
     },
   ],
   verbal: "I'll be right outside for the next 30 minutes. Come find me.",

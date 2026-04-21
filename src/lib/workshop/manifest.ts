@@ -8,7 +8,9 @@ import { SlidePlanMode } from "@/components/workshop/slides/SlidePlanMode";
 import { SlidePromptStructure } from "@/components/workshop/slides/SlidePromptStructure";
 import { SlideBioHook } from "@/components/workshop/slides/SlideBioHook";
 import { SlidePermissions } from "@/components/workshop/slides/SlidePermissions";
+import { SlidePause } from "@/components/workshop/slides/SlidePause";
 import { SlideContextTokens } from "@/components/workshop/slides/SlideContextTokens";
+import { SlideTokens } from "@/components/workshop/slides/SlideTokens";
 import { SlideFirstIteration } from "@/components/workshop/slides/SlideFirstIteration";
 import { SlideMultimedia } from "@/components/workshop/slides/SlideMultimedia";
 import { SlideSubagents } from "@/components/workshop/slides/SlideSubagents";
@@ -36,7 +38,9 @@ export const slideManifest: SlideMeta[] = [
   { id: "prompt-structure", title: "Lesson · Prompting structure", Component: SlidePromptStructure },
   { id: "bio-hook", title: "Bio + corporate hook", Component: SlideBioHook },
   { id: "permissions", title: "Lesson · Permissions", Component: SlidePermissions },
-  { id: "context-tokens", title: "Lesson · Context and tokens", Component: SlideContextTokens },
+  { id: "pause", title: "Pause · Questions", Component: SlidePause },
+  { id: "context-tokens", title: "Lesson · Context", Component: SlideContextTokens },
+  { id: "tokens", title: "Lesson · Tokens", Component: SlideTokens },
   { id: "first-iteration", title: "First iteration is live", Component: SlideFirstIteration },
   { id: "multimedia", title: "Lesson · Multimedia inputs", Component: SlideMultimedia },
   { id: "subagents", title: "Lesson · Subagents", Component: SlideSubagents },
